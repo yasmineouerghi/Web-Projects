@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Gestionnaire de Todo</h2>
+
+        <div class="content">
+          
+            <div class="todo">
+                <h3>Todo List</h3>
+                <ol id="todoList"></ol>
+            </div>
+
+          
+            <div class="form">
+                <div class="input-group">
+                    <label for="name">Name :</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div class="input">
+                    <label for="content">Content :</label>
+                    <input type="text" id="content">
+                </div>
+
+                <button onclick="Ajouter()">Add Todo</button>
+                <button onclick="Clear()">Clear Todo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
